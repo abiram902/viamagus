@@ -1,0 +1,118 @@
+.login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  margin: auto;
+  margin-top: -230px;
+  width: 577px;
+  height: 687px;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.login__form form {
+  display: flex;
+  flex-direction: column;
+  width: 385px;
+  justify-content: space-around;
+  height: 629px;
+}
+.login__form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #20b716;
+}
+.errMsg {
+  display: flex;
+  justify-content: flex-start;
+}
+.svg {
+  margin-right: 10px;
+}
+.login {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.login h2 {
+  color: #20b716;
+}
+.bg-img {
+  min-width: 100%;
+}
+.login__form input {
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.login__form input[type="email"],
+.login__form input[type="password"] {
+  border-bottom: 2px solid #20b716;
+  background-color: #ffffff;
+}
+
+.login__form__banner {
+  height: 58px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 7px #00000029;
+  border-radius: 6px 6px 0px 0px;
+}
+.login__form__banner img {
+  width: 99px;
+  height: 32px;
+}
+
+.login__form__options {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.small-text {
+  font-size: 14px;
+}
+.pink-text {
+  color: #d9185f;
+}
+.submit {
+  height: 50px;
+  border-radius: 40px;
+  background-color: #20b716;
+  color: #ffffff;
+  font-size: 19px;
+}
+.btn__blue {
+  background-color: #4285f4;
+  color: #ffffff;
+  appearance: none;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  height: 46px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+}
+.btn__blue img {
+  margin-right: 20%;
+}
+
+@media (max-width: 576px) {
+  .login__form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 395px) {
+  .login__form form {
+    width: 90%;
+  }
+} ;

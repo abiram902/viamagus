@@ -1,0 +1,20 @@
+.dates {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 50px;
+  margin: 200px auto;
+  height: 40%x;
+  justify-content: space-around;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+.duration {
+  width: max-content;
+  padding: 5px;
+}
+
+.dates label {
+  margin-top: 10px;
+  font-weight: 700;
+}
